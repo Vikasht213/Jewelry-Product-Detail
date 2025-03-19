@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #9c27b0;
+    margin: 0;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+  }
+  
+  .nav-item a {
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .nav-item a:hover {
+    color: #9c27b0;
+  }
+  
+  .header-actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    color: #333;
+    transition: color 0.2s;
+  }
+  
+  .icon-button:hover {
+    color: #9c27b0;
+  }
+  
+  .bag-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #9c27b0;
+    color: white;
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .nav {
+      display: none;
+    }
+  
+    .logo h1 {
+      font-size: 20px;
+    }
+  }
+  
+  

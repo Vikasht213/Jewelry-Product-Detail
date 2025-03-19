@@ -1,0 +1,16 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main {
+  min-height: calc(100vh - 160px);
+  padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 0 10px;
+  }
+}

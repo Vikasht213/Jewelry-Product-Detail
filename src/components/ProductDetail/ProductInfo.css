@@ -1,0 +1,119 @@
+.product-info {
+    margin-bottom: 30px;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .product-id {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .product-reviews {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .stars {
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  .star {
+    width: 18px;
+    height: 18px;
+    stroke: #ffc107;
+    fill: none;
+  }
+  
+  .star.filled {
+    fill: #ffc107;
+  }
+  
+  .star.half-filled {
+    fill: #ffc107;
+  }
+  
+  .review-count {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .product-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .price {
+    font-size: 28px;
+    font-weight: 700;
+    color: #9c27b0;
+    margin-right: 15px;
+  }
+  
+  .currency-toggle {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .currency-toggle:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .product-offer {
+    background-color: #f8f4ff;
+    border-left: 4px solid #9c27b0;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .offer-tag {
+    background-color: #9c27b0;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  
+  .offer-text {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .product-description {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .product-description p {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .product-title {
+      font-size: 20px;
+    }
+  
+    .price {
+      font-size: 24px;
+    }
+  }
+  
+  
